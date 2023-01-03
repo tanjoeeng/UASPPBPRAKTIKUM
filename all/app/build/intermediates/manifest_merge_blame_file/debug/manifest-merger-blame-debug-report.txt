@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rafli.moviedb"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:7:5-68
+12-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:7:22-65
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:8:5-66
+13-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:8:22-63
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\afd2eec9995e5d3a341e70a418ba1348\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:5-79
+14-->[io.realm:realm-android-library-object-server:5.1.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\afd2eec9995e5d3a341e70a418ba1348\jetified-realm-android-library-object-server-5.1.0\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.REORDER_TASKS" />
+15-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:24:5-72
+15-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:24:22-69
+16
+17    <application
+17-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:10:5-43:19
+18        android:allowBackup="true"
+18-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\d30bfce686db478102ac90bd93a9805a\core-1.3.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme"
+26-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:16:9-40
+27        android:usesCleartextTraffic="true" >
+27-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:17:9-44
+28        <activity android:name="com.rafli.moviedb.activities.SettingActivity" />
+28-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:18:9-82
+28-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:18:19-79
+29        <activity android:name="com.rafli.moviedb.activities.DetailMovieActivity" />
+29-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:19:9-86
+29-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:19:19-83
+30        <activity android:name="com.rafli.moviedb.activities.DetailTelevisionActivity" />
+30-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:20:9-91
+30-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:20:19-88
+31        <activity
+31-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:21:9-30:20
+32            android:name="com.rafli.moviedb.activities.MainActivity"
+32-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:22:13-70
+33            android:configChanges="keyboardHidden|orientation|screenSize"
+33-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:23:13-74
+34            android:windowSoftInputMode="adjustPan" >
+34-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:24:13-52
+35            <intent-filter>
+35-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:25:13-29:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:26:17-69
+36-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:26:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:17-77
+38-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <receiver
+42-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:32:9-36:47
+43            android:name="com.rafli.moviedb.notification.NotificationReleaseReceiver"
+43-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:33:13-87
+44            android:enabled="true"
+44-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:34:13-35
+45            android:exported="true" />
+45-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:35:13-36
+46        <receiver
+46-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:38:9-42:47
+47            android:name="com.rafli.moviedb.notification.NotificationDailyReceiver"
+47-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:39:13-85
+48            android:enabled="true"
+48-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:40:13-35
+49            android:exported="true" />
+49-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:41:13-36
+50
+51        <activity
+51-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:27:9-34:20
+52            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+52-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:28:13-99
+53            android:exported="true"
+53-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:29:13-36
+54            android:theme="@style/WhiteBackgroundTheme" >
+54-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:30:13-56
+55            <intent-filter android:priority="-100" >
+55-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+55-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:17-77
+56-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:27-74
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:35:9-42:20
+60            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+60-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:36:13-95
+61            android:exported="true"
+61-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:37:13-36
+62            android:theme="@style/WhiteBackgroundTheme" >
+62-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:38:13-56
+63            <intent-filter android:priority="-100" >
+63-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+63-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:17-77
+64-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:43:9-50:20
+68            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+68-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:44:13-103
+69            android:exported="true"
+69-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:45:13-36
+70            android:theme="@style/WhiteBackgroundDialogTheme" >
+70-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:46:13-62
+71            <intent-filter android:priority="-100" >
+71-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:13-33:29
+71-->[androidx.test:core:1.5.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\a16c43de0fb07109f7d5fe883f5d0217\jetified-core-1.5.0\AndroidManifest.xml:31:28-51
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:17-77
+72-->C:\Users\62857\AndroidStudioProjects\rafli\app\src\main\AndroidManifest.xml:28:27-74
+73            </intent-filter>
+74        </activity>
+75
+76        <provider
+76-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\de86d00312121486a029191a23a4d0e9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+77            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\de86d00312121486a029191a23a4d0e9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+78            android:authorities="com.rafli.moviedb.lifecycle-process"
+78-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\de86d00312121486a029191a23a4d0e9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+79            android:exported="false"
+79-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\de86d00312121486a029191a23a4d0e9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+80            android:multiprocess="true" />
+80-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\62857\.gradle\caches\transforms-2\files-2.1\de86d00312121486a029191a23a4d0e9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+81    </application>
+82
+83</manifest>

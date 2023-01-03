@@ -1,0 +1,84 @@
+com/rafli/moviedb/adapter/ViewPageAdapter.java
+ com.rafli.moviedb.adapter.ViewPageAdapter
+com/rafli/moviedb/activities/DetailMovieActivity.java
+ com.rafli.moviedb.activities.DetailMovieActivity
+ com.rafli.moviedb.activities.DetailMovieActivity$1
+ com.rafli.moviedb.activities.DetailMovieActivity$2
+ com.rafli.moviedb.activities.DetailMovieActivity$3
+com/rafli/moviedb/adapter/TvHorizontalAdapter.java
+ com.rafli.moviedb.adapter.TvHorizontalAdapter
+ com.rafli.moviedb.adapter.TvHorizontalAdapter$1
+ com.rafli.moviedb.adapter.TvHorizontalAdapter$ViewHolder
+ com.rafli.moviedb.adapter.TvHorizontalAdapter$onSelectData
+com/rafli/moviedb/fragment/FragmentFavoriteMovie.java
+ com.rafli.moviedb.fragment.FragmentFavoriteMovie
+com/rafli/moviedb/realm/RealmHelper.java
+ com.rafli.moviedb.realm.RealmHelper
+com/rafli/moviedb/notification/NotificationReleaseReceiver.java
+ com.rafli.moviedb.notification.NotificationReleaseReceiver
+ com.rafli.moviedb.notification.NotificationReleaseReceiver$1
+com/rafli/moviedb/activities/DetailTelevisionActivity.java
+ com.rafli.moviedb.activities.DetailTelevisionActivity
+ com.rafli.moviedb.activities.DetailTelevisionActivity$1
+ com.rafli.moviedb.activities.DetailTelevisionActivity$2
+ com.rafli.moviedb.activities.DetailTelevisionActivity$3
+com/rafli/moviedb/networking/ApiEndpoint.java
+ com.rafli.moviedb.networking.ApiEndpoint
+com/rafli/moviedb/preference/SettingPreference.java
+ com.rafli.moviedb.preference.SettingPreference
+com/rafli/moviedb/activities/MainActivity.java
+ com.rafli.moviedb.activities.MainActivity
+ com.rafli.moviedb.activities.MainActivity$1
+ com.rafli.moviedb.activities.MainActivity$2
+com/rafli/moviedb/activities/SettingActivity.java
+ com.rafli.moviedb.activities.SettingActivity
+ com.rafli.moviedb.activities.SettingActivity$1
+ com.rafli.moviedb.activities.SettingActivity$2
+ com.rafli.moviedb.activities.SettingActivity$3
+com/rafli/moviedb/adapter/TvAdapter.java
+ com.rafli.moviedb.adapter.TvAdapter
+ com.rafli.moviedb.adapter.TvAdapter$1
+ com.rafli.moviedb.adapter.TvAdapter$ViewHolder
+ com.rafli.moviedb.adapter.TvAdapter$onSelectData
+com/rafli/moviedb/fragment/FragmentFavoriteTv.java
+ com.rafli.moviedb.fragment.FragmentFavoriteTv
+com/rafli/moviedb/model/ModelMovie.java
+ com.rafli.moviedb.model.ModelMovie
+com/rafli/moviedb/fragment/FragmentFavorite.java
+ com.rafli.moviedb.fragment.FragmentFavorite
+com/rafli/moviedb/notification/NotificationDailyReceiver.java
+ com.rafli.moviedb.notification.NotificationDailyReceiver
+com/rafli/moviedb/model/ModelTrailer.java
+ com.rafli.moviedb.model.ModelTrailer
+com/rafli/moviedb/BuildConfig.java
+ com.rafli.moviedb.BuildConfig
+com/rafli/moviedb/utils/BottomBarBehavior.java
+ com.rafli.moviedb.utils.BottomBarBehavior
+com/rafli/moviedb/adapter/MovieHorizontalAdapter.java
+ com.rafli.moviedb.adapter.MovieHorizontalAdapter
+ com.rafli.moviedb.adapter.MovieHorizontalAdapter$1
+ com.rafli.moviedb.adapter.MovieHorizontalAdapter$ViewHolder
+ com.rafli.moviedb.adapter.MovieHorizontalAdapter$onSelectData
+com/rafli/moviedb/model/ModelTV.java
+ com.rafli.moviedb.model.ModelTV
+com/rafli/moviedb/fragment/FragmentTV.java
+ com.rafli.moviedb.fragment.FragmentTV
+ com.rafli.moviedb.fragment.FragmentTV$1
+ com.rafli.moviedb.fragment.FragmentTV$2
+ com.rafli.moviedb.fragment.FragmentTV$3
+ com.rafli.moviedb.fragment.FragmentTV$4
+com/rafli/moviedb/fragment/FragmentMovie.java
+ com.rafli.moviedb.fragment.FragmentMovie
+ com.rafli.moviedb.fragment.FragmentMovie$1
+ com.rafli.moviedb.fragment.FragmentMovie$2
+ com.rafli.moviedb.fragment.FragmentMovie$3
+ com.rafli.moviedb.fragment.FragmentMovie$4
+com/rafli/moviedb/adapter/TrailerAdapter.java
+ com.rafli.moviedb.adapter.TrailerAdapter
+ com.rafli.moviedb.adapter.TrailerAdapter$1
+ com.rafli.moviedb.adapter.TrailerAdapter$ViewHolder
+com/rafli/moviedb/adapter/MovieAdapter.java
+ com.rafli.moviedb.adapter.MovieAdapter
+ com.rafli.moviedb.adapter.MovieAdapter$1
+ com.rafli.moviedb.adapter.MovieAdapter$ViewHolder
+ com.rafli.moviedb.adapter.MovieAdapter$onSelectData

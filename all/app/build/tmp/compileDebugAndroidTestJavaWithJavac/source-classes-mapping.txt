@@ -1,0 +1,4 @@
+com/rafli/moviedb/test/BuildConfig.java
+ com.rafli.moviedb.test.BuildConfig
+com/rafli/moviedb/ExampleInstrumentedTest.java
+ com.rafli.moviedb.ExampleInstrumentedTest
